@@ -13,12 +13,58 @@
     }
 }
 
+// .grid {
+//     width: 100%;
+//     background-color: green;
+//     color: rgb(182, 214, 182);
+//     margin: 0 auto;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-around;
+// }
+
 .grid {
     width: 100%;
     background-color: green;
-    color: rgb(182, 214, 182);
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 5px;
+
+    
+    .cardcontainer {
+        // background-color: greenyellow;
+        width: 100%;
+        max-width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        // border: 1px solid black;
+        position: relative;
+
+
+        .cardfront {
+            max-width: 100px;
+            position: absolute;
+            top: 15px;
+            // left: 0;
+        }
+
+        .cardback {
+            max-width: 100px;
+            border-radius: 7px;
+            // position: absolute;
+            z-index: 1;
+            cursor: pointer;
+            // visibility: hidden;
+
+            &:active {
+                z-index: -1;
+            }
+        }
+    }
+
+
 }
