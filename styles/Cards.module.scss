@@ -33,7 +33,7 @@
 
     
     .cardcontainer {
-        // background-color: greenyellow;
+        background-color: greenyellow;
         width: 100%;
         max-width: 80%;
         display: flex;
@@ -47,7 +47,7 @@
 
         .cardfront {
             max-width: 100px;
-            position: absolute;
+            // position: absolute;
             top: 15px;
             // left: 0;
         }
@@ -56,7 +56,7 @@
             max-width: 100px;
             border-radius: 7px;
             // position: absolute;
-            z-index: 1;
+            // z-index: 1;
             cursor: pointer;
             // visibility: hidden;
 
