@@ -18,8 +18,9 @@
 
 **Application Screenshots:**
 <img width="200" alt="Screen Shot 2021-11-23 at 2 06 51 AM" src="https://user-images.githubusercontent.com/78382082/142985777-7a637bbf-b250-4086-b709-2c7625d2cca5.png">
+<img width="200" alt="Screen Shot 2021-11-23 at 2 07 04 AM" src="https://user-images.githubusercontent.com/78382082/142985955-76731b04-99c5-4f47-ba18-87e9832de848.png">
+<img width="200" alt="Screen Shot 2021-11-23 at 2 07 18 AM" src="https://user-images.githubusercontent.com/78382082/142985963-2b4973d3-284f-403f-bb5a-f055756da8bd.png">
 
     
-
   **Future Enhancement:**
   As of now toggling between a card facing up and down is all the app can do. Future implementations are coming soon where game logic will determine whether the card is match. If it's a match then the cards will remain faced up. If it's not a match then both cards will flip back over. The app will also keep score of how many times the user attemps card flips. In the end there will be a score based on how many card flip attempts the user took to complete.
