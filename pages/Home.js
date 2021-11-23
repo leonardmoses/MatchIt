@@ -5,16 +5,22 @@ import styles from '../styles/Home.module.scss'
 
 const Home = () => {
     return ( 
-        <div className={styles.home}>
-            <Header/>
-            <main className={styles.main}>
-                <h1>How to play</h1>
-                <div className={styles.rules}>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita perspiciatis minus esse quam rem consectetur delectus iste numquam voluptatibus dolores maiores perferendis, ab necessitatibus quasi ullam quidem voluptatum recusandae. Quibusdam.</p>
-                </div>
-            </main>
-            <Footer className={styles.footer}/>
-        </div>
+        
+            <Layout>
+                <main className={styles.main}>
+                    <h1>How to play</h1>
+                    <div className={styles.tableWood}>
+                        <div className={styles.rules}>
+                            <p>These are the game rules. In order to play Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita perspiciatis minus esse quam rem consectetur delectus iste numquam voluptatibus dolores maiores perferendis, ab necessitatibus quasi ullam quidem voluptatum recusandae. Quibusdam.</p>
+                            <br />
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita perspiciatis minus esse quam rem consectetur delectus iste numquam voluptatibus dolores maiores perferendis, ab necessitatibus quasi ullam quidem voluptatum recusandae. Quibusdam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita perspiciatis minus esse quam rem consectetur delectus iste numquam voluptatibus dolores maiores perferendis, ab necessitatibus quasi ullam quidem voluptatum recusandae.</p>
+                        </div>
+                    </div>
+
+                    
+                </main>
+            </Layout>
+        
 
      );
 }

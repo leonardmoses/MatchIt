@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styleSplash from "../styles/Splash.module.scss"
+import Image from "next/image"
+// import image from "../public/spade.png"
 
 export default function Splash() {
   return (
@@ -10,8 +12,8 @@ export default function Splash() {
       </Head>
       <main className={styleSplash.main}>
         <h1>Match It</h1>
-        <Link href='/Home'><a className={styleSplash.rules}>Game Rules</a></Link>
-        <Link href='/Cards'><a className={styleSplash.play}>Play</a></Link>
+        <a className={styleSplash.rules}><Link href='/Home'>Game Rules</Link></a>
+        <a className={styleSplash.play}><Link href='/Cards'>Play</Link></a>
       </main>
     </div>
   )

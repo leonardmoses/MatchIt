@@ -1,17 +1,21 @@
+@import "./Global.module.scss";
+
 .Body {
     width: 100%;
-    background-color: purple;
-    color: white;
+    background-color: $tertiarydarkmed;
+    background-image: url("../public/images/always-grey.png");
     margin: 0 auto;
     height: 75px;
     position: relative;
+    border: 0.5px solid #c23da87c;
 
     .Title {
         width: 80%;
         // background-color: red;
+        @include combo2;
         margin: 0 auto;
         h1 {
-            font-size: 30px;
+            font-size: 50px;
             text-align: center;
         }
     }
@@ -26,6 +30,17 @@
         padding: 0 2%;
         position: absolute;
         bottom: 5px;
+        // color: $tertiarylight;
+
+        a {
+            color: $tertiarylight;
+
+            &:hover {
+                color: $primarylight;
+            }
+        }
+
+
     }
     
 }

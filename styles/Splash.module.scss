@@ -1,45 +1,52 @@
+@import "./Global.module.scss";
+
 .body {
     width: 100%;
-    background-color: rgb(7, 103, 7);
-}
+    background-color: $tertiarydarkmed;
+    background-image: url('../public/images/always-grey.png');
 
-.main {
-    width: 80%;
-    // background-color: indianred;
-    margin: 0 auto;
-    height: 100vh;
-    position: relative;
-    // text-align: center;
-    display: flex;
-    // justify-content: center;
 
-    h1 {
-        width: 100%;
-        font-size: 50px;
-        position: absolute;
-        top: 35%;
-        color: rgb(191, 220, 194);
-        text-align: center;
-        // background-color: black;
+    .main {
+        width: 80%;
+        // background-color: indianred;
+        margin: 0 auto;
+        height: 100vh;
+        position: relative;
+        // text-align: center;
+        display: flex;
+        // justify-content: center;
+
+
+        h1 {
+            @include combo1;
+            width: 100%;
+            font-size: 70px;
+            position: absolute;
+            top: 35%;
+            text-align: center;
+            // background-color: black;
+        }
+
+        .rules , .play {
+            width: 100%;
+            font-size: 25px;
+            position: absolute;
+            top: 51%;
+            text-align: center;
+            // background-color: black;
+            // @include combo2 ;
+            color: $primarylight;
+
+            &:hover {
+                color: $tertiarylight ;
+            }
+        }
+
+        .play {
+            top: 56% 
+        }
+
+
     }
 
-    .rules {
-        width: 100%;
-        font-size: 30px;
-        position: absolute;
-        top: 51%;
-        color: rgb(191, 220, 194);;
-        text-align: center;
-        // background-color: black;
-    }
-
-    .play {
-        width: 100%;
-        font-size: 30px;
-        position: absolute;
-        top: 57%;
-        color: rgb(191, 220, 194);;
-        text-align: center;
-        // background-color: black;
-    }
 }
