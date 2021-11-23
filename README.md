@@ -17,9 +17,9 @@
   4. In the gameplay board the user is greeted with all their cards faced down. The apps functionality allows them to click on a card to reveal the card. They may then click on a second card. They can keep clicking on a card to toggle it to face up or down.
 
 **Application Screenshots:**
-    ![This is an image](https://imgur.com/XfIfGtD)
-    ![This is an image](https://imgur.com/vltyE2S)
-    ![This is an image](https://imgur.com/NTPk8xd)
+    ![This is an image](/public/image/ScreenShot1)
+    ![This is an image](/public/image/ScreenShot2)
+    ![This is an image](/public/image/ScreenShot3)
 
   **Future Enhancement:**
   As of now toggling between a card facing up and down is all the app can do. Future implementations are coming soon where game logic will determine whether the card is match. If it's a match then the cards will remain faced up. If it's not a match then both cards will flip back over. The app will also keep score of how many times the user attemps card flips. In the end there will be a score based on how many card flip attempts the user took to complete.
