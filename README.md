@@ -17,8 +17,7 @@
   4. In the gameplay board the user is greeted with all their cards faced down. The apps functionality allows them to click on a card to reveal the card. They may then click on a second card. They can keep clicking on a card to toggle it to face up or down.
 
 **Application Screenshots:**
-
-    <img width="200" alt="Screen Shot 2021-11-23 at 2 06 51 AM" src="https://user-images.githubusercontent.com/78382082/142985777-7a637bbf-b250-4086-b709-2c7625d2cca5.png">
+<img width="200" alt="Screen Shot 2021-11-23 at 2 06 51 AM" src="https://user-images.githubusercontent.com/78382082/142985777-7a637bbf-b250-4086-b709-2c7625d2cca5.png">
 
     
 
