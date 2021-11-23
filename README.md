@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Title: **Match It**
 
-## Getting Started
+**Description:**
+  This application is a card matching game. Similar to other matching games a user may click on the back face of a card to reveal it.
 
-First, run the development server:
+**App Inspiration:**
+  I have always been interestd in game apps I wanted to finally get my feet wet to diversify my developement skill set.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+**Technologies Used:**
+  Next.Js, Javascript, CSS, SASS for the frontend. Future implementation will add python, Django for backend.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Getting Started:**
+  1. To get started click on this link to go to the app's deployed domain.
+  https://match-it-eight.vercel.app/
+  2. You will be greeted with a Splash page. The app has two pages. You may either click on gamerules or play game. 
+  3. Game rules will give you a brief desciption of what to do once you play.
+  4. In the gameplay board the user is greeted with all their cards faced down. The apps functionality allows them to click on a card to reveal the card. They may then click on a second card. They can keep clicking on a card to toggle it to face up or down.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**Application Screenshots:**
+    ![This is an image](https://imgur.com/XfIfGtD)
+    ![This is an image](https://imgur.com/vltyE2S)
+    ![This is an image](https://imgur.com/NTPk8xd)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  **Future Enhancement:**
+  As of now toggling between a card facing up and down is all the app can do. Future implementations are coming soon where game logic will determine whether the card is match. If it's a match then the cards will remain faced up. If it's not a match then both cards will flip back over. The app will also keep score of how many times the user attemps card flips. In the end there will be a score based on how many card flip attempts the user took to complete.
